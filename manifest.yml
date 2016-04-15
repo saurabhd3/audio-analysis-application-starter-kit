@@ -7,7 +7,7 @@ declared-services:
     label: s2t-sd
     plan: standard
 applications:
-- name: audio-analysis
+- name: audio-analyzer-sd
   path: .
   command: npm start
   memory: 512M
