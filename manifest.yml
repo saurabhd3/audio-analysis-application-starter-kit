@@ -1,9 +1,9 @@
 ---
 declared-services:
-  Concept Insights-audio1:
+  concept-insights-service:
     label: Concept Insights-audio1
     plan: standard
-  Speech To Text-6h-audio1:
+  speech-to-text-service:
     label: Speech To Text-6h-audio1
     plan: standard
 applications:
