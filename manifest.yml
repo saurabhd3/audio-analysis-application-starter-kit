@@ -1,10 +1,10 @@
 ---
 declared-services:
   concept-insights-service:
-    label: Concept Insights-audio1
+    label: ci-sd
     plan: standard
   speech-to-text-service:
-    label: Speech To Text-6h-audio1
+    label: s2t-sd
     plan: standard
 applications:
 - name: audio-analysis
@@ -12,8 +12,8 @@ applications:
   command: npm start
   memory: 512M
   services:
-  - Concept Insights-audio1
-  - Speech To Text-6h-audio1
+  - ci-sd
+  - s2t-sd
   env:
     NODE_ENV: production
     SECURE_EXPRESS: 1
