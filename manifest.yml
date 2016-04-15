@@ -1,10 +1,10 @@
 ---
 declared-services:
   Concept Insights-audio1:
-    label: concept_insights
+    label: Concept Insights-audio1
     plan: standard
   Speech To Text-6h-audio1:
-    label: speech_to_text
+    label: Speech To Text-6h-audio1
     plan: standard
 applications:
 - name: audio-analysis
